@@ -1,0 +1,7 @@
+/Lib
+/Include
+/Scripts
+/Log
+*.cfg
+.idea
+/paper_popularity.egg-info
