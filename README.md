@@ -9,7 +9,7 @@ Currently it is a command line application which makes a query to [Science Direc
 ## Installation
 
 I haven't published to PyPi but it can be easily installed locally.
-``` python
+``` shell
 pip install -e C:\\directory_package_is_in\paper_popularity
 ```
 
@@ -24,7 +24,7 @@ paper_popularity.main()
 
 When ran, the script will output a prompt such as:
 
-``` bash
+``` shell
 [Hit enter to exit]
 Search for:
 ```
@@ -35,7 +35,7 @@ Entering a query will return a figure like below:
 
 Once finished, the following query will appear:
 
-``` bash
+``` shell
 [Hit enter to exit]
 change y scale ['linear, log']:
 ```
@@ -56,4 +56,4 @@ Running from command line in a virtual environment yields no issues. But figures
 
 ## Notes
 
-This application was developed on Windows
+This application was developed on Windows and hasn't been tested on other platforms.
